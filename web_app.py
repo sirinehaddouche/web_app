@@ -8,6 +8,7 @@ st.write("""
 Il s'agit d'un dashboard intéractif qui traite des données misent à jour en temps réél. Vous pouvez naviguer sur l'interface à l'aide de votre souris :)
 """)
 
+############# LOAD THE DATA ###############
 
 df = pd.read_csv('https://static.data.gouv.fr/resources/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19/20210202-220106/vaccination-regional.csv', sep = ',')
 df['date'] = pd.to_datetime(df['date'])
