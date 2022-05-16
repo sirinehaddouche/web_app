@@ -5,7 +5,7 @@ import plotly_express as px
 
 st.title("Bienvenue sur l'application web à propos de la crise du Covid 19 en France")
 st.write("""
-# Il s'agit d'un dashboard intéractif qui traite des données misent à jour en temps réél. Vous pouvez naviguer sur l'interface à l'aide de votre souris :)
+Il s'agit d'un dashboard intéractif qui traite des données misent à jour en temps réél. Vous pouvez naviguer sur l'interface à l'aide de votre souris :)
 """)
 
 
