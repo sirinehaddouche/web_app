@@ -1,6 +1,6 @@
 import streamlit as st 
 import pandas as pd 
-import plotly_express as px
+#import plotly_express as px
 #import mymodel as m 
 
 st.title("Welcome the the web app about COVID 19")
@@ -22,5 +22,5 @@ selectbox = st.sidebar.selectbox(
 )
 st.write(f"You selected {selectbox}")
 
-fig2 = px.line(df, x='jour', y='nb')
-ts_chart = st.plotly_chart(fig2)
+#fig2 = px.line(df, x='jour', y='nb')
+#ts_chart = st.plotly_chart(fig2)
