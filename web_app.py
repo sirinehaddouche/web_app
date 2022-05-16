@@ -3,7 +3,7 @@ import pandas as pd
 import plotly_express as px
 #import mymodel as m 
 
-st.title("Welcome the the web app about COVID 19")
+st.title("Bienvenue sur l'application web à propos de la crise du Covid 19")
 st.write("""
 # COVID-19 Dashboard
 Below you will find our dashbord that is updated every day.
